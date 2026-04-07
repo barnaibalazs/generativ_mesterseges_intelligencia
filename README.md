@@ -1,8 +1,8 @@
 📊 Adatelemző MI - Streamlit & Gemini 2.5 Flash
-Ez a projekt egy intelligens, Python és Streamlit alapú adatelemző webalkalmazás, amely a Google Gemini 2.5 Flash nagy nyelvi modelljét (LLM) használja. Célja, hogy a feltöltött nyers adatokból (CSV, Excel) laikusok számára is érthető, vizuális és szöveges elemzéseket, valamint letölthető PDF jelentéseket készítsen.
+Ez a projekt egy Python és Streamlit alapú adatelemző webalkalmazás, amely a Google Gemini 2.5 Flash nagy nyelvi modelljét (LLM) használja. Célja, hogy a feltöltött nyers adatokból (CSV, Excel) laikusok számára is érthető, vizuális és szöveges elemzéseket, valamint letölthető PDF jelentéseket készítsen.
 
 ✨ Főbb funkciók
-📂 Fájlkezelés és Alapstatisztika: CSV, XLS és XLSX fájlok beolvasása, automatikus hibakezeléssel (kódolási problémák áthidalása). A numerikus adatokból automatikus statisztikai összegzés készül.
+📂 Fájlkezelés és Alapstatisztika: CSV, XLS és XLSX fájlok beolvasása, hibakezeléssel. A numerikus adatokból statisztikai összegzés, magyarázat, grafikon készítés.
 
 🤖 MI Statisztikai Magyarázat: A statisztikai mutatókat (átlag, szórás, min/max) az MI emberi nyelven, üzleti kontextusba helyezve értelmezi.
 
@@ -12,7 +12,7 @@ Ez a projekt egy intelligens, Python és Streamlit alapú adatelemző webalkalma
 
 💬 Multimodális Chat: Beépített chat felület, ahol a felhasználó az aktuális adatokról kérdezhet, vagy akár saját képeket (pl. más diagramokat) is feltölthet elemzésre a Gemini Vision képességeit kihasználva.
 
-🚀 MI Felfedező (Auto-EDA): A rendszer proaktívan feltérképezi az adathalmazt, és automatikusan generál statisztikailag logikus, egyedi grafikonokat (JSON alapú, szigorú promptolással kikényszerített struktúrában).
+🚀 MI Felfedező (Auto-EDA): A rendszer értelmezi az adathalmazt, és  generál statisztikailag logikus, egyedi grafikonokat (JSON alapú, szigorú promptolással kikényszerített struktúrában).
 
 📑 PDF Jelentéskészítés: Az elkészült grafikonokból, statisztikákból és MI elemzésekből egy kattintással letölthető, formázott PDF riport generálódik.
 
