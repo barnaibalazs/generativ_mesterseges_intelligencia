@@ -39,10 +39,10 @@ pip install -r requirements.txt
 
 3. API Kulcs beállítása:
 A Gemini használatához szükséged lesz egy API kulcsra a Google AI Studio-ból.
-Hozz létre egy .streamlit nevű mappát a projekt mappájában, azon belül pedig egy secrets.toml fájlt a következő tartalommal:
+A projekten belül, a .streamlit nevü mappában, azon belül pedig a secrets.toml fájlba írd bele az API kulcsodat: 
 GEMINI_API_KEY = "ide_másold_az_api_kulcsodat"
 
-4. Alkalmazás indítása:
+5. Alkalmazás indítása:
 Futtasd az alábbi parancsot a terminálban:
 streamlit run app.py
 
