@@ -7,6 +7,7 @@ import statsmodels.api as sm
 import uuid
 import ai_felfedezo
 
+#teszt
 
 # 1. ALAPBEÁLLÍTÁSOK ÉS GLOBÁLIS MI DEFINIÁLÁSA
 st.set_page_config(page_title="Adatelemző MI", layout="wide")
